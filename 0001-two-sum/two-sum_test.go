@@ -26,13 +26,13 @@ func TestTwoSum(t *testing.T) {
 			expected: []int{1, 2},
 		},
 		{
-			name:     "case 3 from leetcode testcase 3",
+			name:     "case3 from leetcode testcase 3",
 			input:    []int{3, 3},
 			target:   6,
 			expected: []int{0, 1},
 		},
 		{
-			name:     "case 4 no solution",
+			name:     "case4 when is no solution",
 			input:    []int{1, 2, 3, 4},
 			target:   10,
 			expected: []int{},
